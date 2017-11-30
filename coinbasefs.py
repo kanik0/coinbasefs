@@ -33,8 +33,6 @@ client = Client(api_key, api_secret, api_version=version)
 # Gets primary account
 account = client.get_primary_account()
 price = client.get_spot_price(currency=currency_code)
-# DA GUARDARE MEGLIO
-payment_method = client.get_payment_methods()[2]
 print('[*] Connected. You currently have %s. Starting..' % (account.balance))
 print('')
 
@@ -55,14 +53,16 @@ while True:
         price = client.get_spot_price(currency=currency_code)
 
         if float(price.amount) < margin_value:
-            sell = account.sell(total=account.balance.amount,
-                                currency='BTC',
-                                payment_method=payment_method.id)
+            sell = account.sell(amount=account.balance.amount,
+                                currency='BTC', commit='true')
 
             print('The price is %s %s, SELLING everything!' %
                   (price.amount, currency_code))
-            print('%s - Transaction ID: %s.' %
+            print('%s - Transaction ID: %s. ' %
                   str(datetime.datetime.now()).split('.')[0], sell.id)
+            print('You have sold %s BTC for %s %s (fee %s %s)' %
+                  account.balance.amount, sell.total.amount, sell.total.currency,
+                  sell.fee.amount, sell.fee.currency)
             print('Quitting..')
             quit()
 
