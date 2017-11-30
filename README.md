@@ -49,8 +49,8 @@ Current value of Bitcoin: 8698.47 EUR. The current maximum is 8704.54 EUR and th
 Current value of Bitcoin: 8698.47 EUR. The current maximum is 8704.54 EUR and the SELL value is currently set to 7398.86 EUR.
 Current value of Bitcoin: 8695.97 EUR. The current maximum is 8704.54 EUR and the SELL value is currently set to 7398.86 EUR.
 [...]
-The price is 7390.98, SELLING everything!
-2017-11-30 11:15:31 - Transaction ID: 23049820394823.
+The price is 7390.98 EUR, SELLING everything!
+2017-11-30 11:15:31 - Transaction ID: a333743d-184a-5b5b-abe8-11612fc44ab5.
 Quitting..
 ```
 # Additional parameters
