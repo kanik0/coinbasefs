@@ -66,7 +66,7 @@ while True:
             print('Quitting..')
             quit()
 
-        if float(price.amount) > max:
+        if float(price.amount) > max_price:
             max_price = float(price.amount)
 
         margin_value = (1 - float(margin) / 100) * max_price
