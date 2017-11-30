@@ -37,15 +37,16 @@ $:~/coinbasefs$ python coinbasefs.py
  .(-._. ~Coinbase Failsafe~ ._.-). 
 ###################################
 
-[*] Wait time is set to 10 seconds.
-[*] Acceptable relative loss from maximum is set to 10 %.
+[*] Wait time is set to 15 seconds.
+[*] Acceptable relative loss from maximum is set to 15 %.
 [*] The currency code chosen is EUR.
 [*] Connecting to Coinbase..
 [*] Connected. You currently have BTC XXXXXXXXX. Starting..
 
-Current value of Bitcoin: 8738.73 EUR. The current maximum is 8738.73 EUR and the SELL value is currently set to 7864.86 EUR.
-Current value of Bitcoin: 8738.73 EUR. The current maximum is 8738.73 EUR and the SELL value is currently set to 7864.86 EUR.
-Current value of Bitcoin: 8738.73 EUR. The current maximum is 8738.73 EUR and the SELL value is currently set to 7864.86 EUR.
-Current value of Bitcoin: 8753.40 EUR. The current maximum is 8753.4 EUR and the SELL value is currently set to 7878.06 EUR.
+Current value of Bitcoin: 8704.54 EUR. The current maximum is 8704.54 EUR and the SELL value is currently set to 7398.86 EUR.
+Current value of Bitcoin: 8704.54 EUR. The current maximum is 8704.54 EUR and the SELL value is currently set to 7398.86 EUR.
+Current value of Bitcoin: 8698.47 EUR. The current maximum is 8704.54 EUR and the SELL value is currently set to 7398.86 EUR.
+Current value of Bitcoin: 8698.47 EUR. The current maximum is 8704.54 EUR and the SELL value is currently set to 7398.86 EUR.
+Current value of Bitcoin: 8695.97 EUR. The current maximum is 8704.54 EUR and the SELL value is currently set to 7398.86 EUR.
 [...]
 ```
