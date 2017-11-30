@@ -31,8 +31,8 @@ price = client.get_spot_price(currency=currency_code)
 payment_method = client.get_payment_methods()[2]			# DA GUARDARE MEGLIO
 print '[*] Connected. You currently have %s. Starting..' % (account.balance)
 print ''
-max=float(price.amount)							# Defines starting maximum value
-margin_value=(1-float(margin)/100)*max					# Defines starting acceptable loss
+max = float(price.amount)							# Defines starting maximum value
+margin_value = (1-float(margin)/100)*max					# Defines starting acceptable loss
 sleep(5)
 
 
