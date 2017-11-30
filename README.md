@@ -28,7 +28,7 @@ pip install coinbase
 easy_install coinbase
 ```
 
-- Edit the script: complete the configuration by putting you api keys in `apy_key` and `api_secret` values inside the script.
+- Edit the script: complete the configuration by putting your api keys in `apy_key` and `api_secret` values inside the script.
 
 - Now you are ready to go. Run the program with `python coinbasefs.py`:
 ```bash
