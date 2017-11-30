@@ -50,3 +50,7 @@ Current value of Bitcoin: 8698.47 EUR. The current maximum is 8704.54 EUR and th
 Current value of Bitcoin: 8695.97 EUR. The current maximum is 8704.54 EUR and the SELL value is currently set to 7398.86 EUR.
 [...]
 ```
+# Additional parameters
+- `currency_code`: The currency to use to express the value of Bitcoin (EUR/USD..). Default is EUR.
+- `margin`: This represents the acceptable loss you want to set, as a percentage of the maximum value reached by Bitcoin since the script has been launched. Default value is 15%.
+- `time_delay`: This tells the program how long to wait before updating the data again. Defaul is 15 seconds (going below 15 seconds is probably useless).
