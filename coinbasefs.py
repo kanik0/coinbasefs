@@ -59,10 +59,10 @@ while True:
             print('The price is %s %s, SELLING everything!' %
                   (price.amount, currency_code))
             print('%s - Transaction ID: %s. ' %
-                  str(datetime.datetime.now()).split('.')[0], sell.id)
+                  (str(datetime.datetime.now()).split('.')[0], sell.id))
             print('You have sold %s BTC for %s %s (fee %s %s)' %
-                  account.balance.amount, sell.total.amount, sell.total.currency,
-                  sell.fee.amount, sell.fee.currency)
+                  (account.balance.amount, sell.total.amount, sell.total.currency,
+                  sell.fee.amount, sell.fee.currency))
             print('Quitting..')
             quit()
 
