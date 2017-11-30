@@ -31,5 +31,21 @@ easy_install coinbase
 - Edit the script: complete the configuration by putting you api keys in `apy_key` and `api_secret` values inside the script.
 
 - Now you are ready to go. Run the program with `python coinbasefs.py`:
+```bash
+$:~/coinbasefs$ python coinbasefs.py
+###################################
+ .(-._. ~Coinbase Failsafe~ ._.-). 
+###################################
 
+[*] Wait time is set to 10 seconds.
+[*] Acceptable relative loss from maximum is set to 10 %.
+[*] The currency code chosen is EUR.
+[*] Connecting to Coinbase..
+[*] Connected. You currently have BTC 0.00081941. Starting..
 
+Current value of Bitcoin: 8738.73 EUR. The current maximum is 8738.73 EUR and the SELL value is currently set to 7864.86 EUR.
+Current value of Bitcoin: 8738.73 EUR. The current maximum is 8738.73 EUR and the SELL value is currently set to 7864.86 EUR.
+Current value of Bitcoin: 8738.73 EUR. The current maximum is 8738.73 EUR and the SELL value is currently set to 7864.86 EUR.
+Current value of Bitcoin: 8753.40 EUR. The current maximum is 8753.4 EUR and the SELL value is currently set to 7878.06 EUR.
+[...]
+```
