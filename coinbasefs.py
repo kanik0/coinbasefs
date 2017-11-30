@@ -37,7 +37,7 @@ sleep(5)
 
 
 # Main code
-while 1>0:
+while True:
 
 	try:
 		account = client.get_primary_account()			#
