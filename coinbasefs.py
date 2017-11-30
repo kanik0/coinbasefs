@@ -55,7 +55,7 @@ while True:
         price = client.get_spot_price(currency=currency_code)
 
         if float(price.amount) < margin_value:
-            sell = account.sell(total=account.balance,
+            sell = account.sell(total=account.balance.amount,
                                 currency='BTC',
                                 payment_method=payment_method.id)
 
