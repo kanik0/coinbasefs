@@ -80,7 +80,7 @@ while True:
         sleep(time_delay)
 
     except Exception as error:
-        print('An error occured, Coinbase might be down (ERR: %s).'
+        print('An error occured, Coinbase might be down (ERR: %s). '
               'Trying again in 10 seconds..' % error)
 
         sleep(10)
