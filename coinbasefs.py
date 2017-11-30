@@ -54,7 +54,7 @@ while True:
 
 		margin_value=(1-float(margin)/100)*max
 
-		print "Current value of your Bitcoin wallet: %s %s. The current maximum is %s %s and the SELL value is currently set to %.2f %s." % (price.amount, currency_code, max, currency_code,  margin_value, currency_code)
+		print "Current value of Bitcoin: %s %s. The current maximum is %s %s and the SELL value is currently set to %.2f %s." % (price.amount, currency_code, max, currency_code,  margin_value, currency_code)
 		sleep(time_delay)
 
 	except Exception as error:
