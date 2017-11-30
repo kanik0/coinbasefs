@@ -46,7 +46,7 @@ while True:
 
 		if float(price.amount)<margin_value:
 			sell = account.sell(total=account.balance, currency="BTC", payment_method=payment_method.id)
-			print 'The price is %s, SELLING everything!' % (price.amount) 
+			print 'The price is %s %s, SELLING everything!' % (price.amount, currency_code) 
 			print '%s - Transaction ID: %s.' % (str(datetime.datetime.now()).split('.')[0], sell.id)
 			print 'Quitting..'
 			quit()
