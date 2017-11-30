@@ -7,5 +7,5 @@ The script periodically checks the value of Bitcoin (in USD/EUR/..) and sells al
 ```bash
 git clone https://github.com/massimobedini/coinbasefs.git
 ```
-or download the zip file: https://github.com/massimobedini/coinbasefs/archive/master.zip
+  or download the zip file: https://github.com/massimobedini/coinbasefs/archive/master.zip
 
