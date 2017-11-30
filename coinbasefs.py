@@ -7,8 +7,8 @@ api_key = 'null'				 # Your API key
 api_secret = 'null'  			 	 # Your API secret key
 version = '2017-10-31' 				 # API version, don't change this
 currency_code = 'EUR' 				 # Currency code, default is EUR
-margin = 10					 # Acceptable relative loss from maximum, expressed as percentage %, default is 10%
-time_delay = 10   				 # Delay in seconds, default is 10 seconds
+margin = 15					 # Acceptable relative loss from maximum, expressed as percentage %, default is 15%
+time_delay = 15   				 # Delay in seconds, default is 15 seconds
 
 # Config check
 if api_key=='null' or api_secret=='null':
