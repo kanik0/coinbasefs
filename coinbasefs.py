@@ -45,8 +45,10 @@ while True:
 		price = client.get_spot_price(currency=currency_code)	#
 
 		if float(price.amount)<margin_value:
-			sell = account.sell(amount=account.balance, currency="BTC", payment_method=payment_method.id)
-			print 'The price is %s, SELLING everything! Date is %s. Quitting..' % (price.amount, str(datetime.datetime.now()).split('.')[0])
+			sell = account.sell(total=account.balance, currency="BTC", payment_method=payment_method.id)
+			print 'The price is %s, SELLING everything!' % (price.amount) 
+			print '%s - Transaction ID: %s.' % (str(datetime.datetime.now()).split('.')[0], sell.id)
+			print 'Quitting..'
 			quit()
 
 		if float(price.amount)>max:
