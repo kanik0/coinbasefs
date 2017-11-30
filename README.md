@@ -41,7 +41,7 @@ $:~/coinbasefs$ python coinbasefs.py
 [*] Acceptable relative loss from maximum is set to 10 %.
 [*] The currency code chosen is EUR.
 [*] Connecting to Coinbase..
-[*] Connected. You currently have BTC 0.00081941. Starting..
+[*] Connected. You currently have BTC XXXXXXXXX. Starting..
 
 Current value of Bitcoin: 8738.73 EUR. The current maximum is 8738.73 EUR and the SELL value is currently set to 7864.86 EUR.
 Current value of Bitcoin: 8738.73 EUR. The current maximum is 8738.73 EUR and the SELL value is currently set to 7864.86 EUR.
